@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header1 {
+  background-color: brown;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+.header1 nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+}
+
+.logo {
+  color: white;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.reg {
+  padding: 8px 15px;
+  background-color: yellow;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.reg:hover {
+  background-color: white;
+}
+
+.sec1 {
+  background-image: url("images/pexels-muffin-2468773.jpg");
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
+  padding-top: 80px;
+}
+
+.text {
+  color: white;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.text p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.bottom {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 20px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.gift-card {
+  background-image: url("images/pexels-fabianwiktor-994605.jpg");
+  background-size: cover;
+  height: 100vh;
+  padding: 100px 30px 0 30px;
+  color: white;
+}
+
+.gift-card h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.gift-card p {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.help {
+  background-image: url("images/images.jpeg");
+  background-size: cover;
+  height: 100vh;
+  color: white;
+  padding: 100px 30px 0 30px;
+  text-align: center;
+}
+
+.help h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  border-bottom: 3px solid white;
+  display: inline-block;
+}
+
+.contact {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 50px 0;
+}
+
+.contact h2 {
+  margin-bottom: 20px;
+}
+
+.social-icons a {
+  color: white;
+  font-size: 30px;
+  margin: 0 15px;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #f39c12;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 15px 0;
+  text-align: center;
+}
